@@ -1,12 +1,13 @@
 body {
     background-color: white;
-    text-align: center;
 }
+
+
 
 header {
     background-color: lightslategray;
-    
-    
+    text-align: left;
+    display: flex;
 }
 
 main {
@@ -16,4 +17,12 @@ main {
 footer {
     background-color: lightslategray;
     color: white;
+}
+
+.welcome {
+    
+}
+
+.push {
+    margin-right: auto;
 }
