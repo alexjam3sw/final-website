@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: lightslategray;
+    
+    
+}
+
+main {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightslategray;
+    color: white;
+}
