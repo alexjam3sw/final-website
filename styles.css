@@ -4,10 +4,11 @@ body {
 }
 
 button {
-    font-size: medium;
+    font-size: large;
+    font-family: 'Bebas Neue', cursive;
     justify-content: flex;
     align-items: center;
-    width: 100%;
+    width: 75%;
     text-align: center;
     background-color: transparent;
     background-repeat: no-repeat;
