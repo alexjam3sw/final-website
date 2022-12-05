@@ -1,13 +1,13 @@
 body {
     background-color: white;
-    color: black;
+    color: white;
 }
 
 button {
     font-size: medium;
     justify-content: flex;
     align-items: center;
-    width: 75%;
+    width: 100%;
     text-align: center;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -19,52 +19,51 @@ button {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:active {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 header {
-    background-color: lightblue;
+    background-color: #4287f5;
     text-align: justify;
     display: flex;
-    height: 75px;
-    padding: 5px 0px 5px 0px;
-    color: transparent;
+    height: 100px;
     font-size: 25px;
 }
 
 main {
-    background-color: lightblue;
+    background-color: #4287f5;
 }
 
 footer {
-    background-color: lightblue;
+    background-color: #4287f5;
     color: black;
 }
 
 .welcome {
-    height: 75px;
-    margin: 20px 10px 10px 10px;
+    height: 85px;
+    margin: 10px 0px 10px 0px;
     border: 250px solid white;
     padding: 50px 0px 50px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .Typographic {
