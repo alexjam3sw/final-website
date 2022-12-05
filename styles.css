@@ -1,8 +1,10 @@
 body {
     background-color: white;
+    color: black;
 }
 
 button {
+    font-size: medium;
     justify-content: flex;
     align-items: center;
     width: 75%;
@@ -15,12 +17,33 @@ button {
     outline: none;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
 
 header {
     background-color: lightslategray;
     text-align: justify;
     display: flex;
+    height: 75px;
     padding: 5px 0px 5px 0px;
+    color: transparent;
     font-size: 25px;
 }
 
@@ -34,35 +57,62 @@ footer {
 }
 
 .welcome {
-    height: 200px;
-    padding: 5px 0px 5px 0px;
-}
-
-.push {
-    margin-right: auto;
+    height: 75px;
+    margin: 10px;
+    border: 250px solid white;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .Typographic {
-    height: 200px;
-    padding: 5px 0px 5px 0px;
+    height: 75px;
+    border: 200px solid white;
+    padding: 180px 0px 180px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .CARP {
-    height: 200px;
-    padding: 5px 0px 5px 0px;
+    height: 75px;
+    border: 250px solid white;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .HTML {
-    height: 200px;
-    padding: 5px 0px 5px 0px;
+    height: 75px;
+    border: 250px solid white;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .UX {
-    height: 200px;
-    padding: 5px 0px 5px 0px;
+    height: 75px;
+    border: 250px solid white;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .Reflection {
-    height: 200px;
-    padding: 5px 0px 5px 0px;
+    height: 75px;
+    border: 250px solid white;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
