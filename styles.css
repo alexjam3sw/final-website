@@ -1,10 +1,10 @@
 body {
-    background-color: white;
+    background-color: black;
     color: white;
 }
 
 button {
-    font-size: large;
+    font-size: 35px;
     font-family: 'Bebas Neue', cursive;
     justify-content: flex;
     align-items: center;
@@ -30,7 +30,7 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: black;
+    color: #4287f5;
 }
 
 a:active {
@@ -39,7 +39,7 @@ a:active {
 }
 
 header {
-    background-color: #4287f5;
+    background-color: black;
     text-align: justify;
     display: flex;
     height: 100px;
@@ -47,72 +47,114 @@ header {
 }
 
 main {
-    background-color: #4287f5;
+    background-color: black;
 }
 
 footer {
-    background-color: #4287f5;
-    color: black;
-}
-
-.welcome {
-    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    border: 10px solid white;
     margin: 10px 0px 10px 0px;
-    border: 250px solid white;
-    padding: 50px 0px 50px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
+    background-color: #4287f5;
+}
+
+.welcome {
+    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 175px;
+    margin: 10px 0px 10px 0px;
+    border: 250px solid white;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
 
 .Typographic {
-    height: 75px;
-    border: 200px solid white;
-    padding: 180px 0px 180px 0px;
+    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 175px;
+    margin: 10px 0px 10px 0px;
+    border: 250px solid white;
+    padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
 
 .CARP {
-    height: 75px;
+    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 175px;
+    margin: 10px 0px 10px 0px;
     border: 250px solid white;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
 
 .HTML {
-    height: 75px;
+    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 175px;
+    margin: 10px 0px 10px 0px;
     border: 250px solid white;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
 
 .UX {
-    height: 75px;
+    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 175px;
+    margin: 10px 0px 10px 0px;
     border: 250px solid white;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
 
 .Reflection {
-    height: 75px;
+    height: 85px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    height: 175px;
+    margin: 10px 0px 10px 0px;
     border: 250px solid white;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
