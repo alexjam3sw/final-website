@@ -2,12 +2,26 @@ body {
     background-color: white;
 }
 
+button {
+    justify-content: flex;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
 
 
 header {
     background-color: lightslategray;
-    text-align: left;
+    text-align: justify;
     display: flex;
+    padding: 5px 0px 5px 0px;
+    font-size: 25px;
 }
 
 main {
@@ -20,9 +34,35 @@ footer {
 }
 
 .welcome {
-    
+    height: 200px;
+    padding: 5px 0px 5px 0px;
 }
 
 .push {
     margin-right: auto;
+}
+
+.Typographic {
+    height: 200px;
+    padding: 5px 0px 5px 0px;
+}
+
+.CARP {
+    height: 200px;
+    padding: 5px 0px 5px 0px;
+}
+
+.HTML {
+    height: 200px;
+    padding: 5px 0px 5px 0px;
+}
+
+.UX {
+    height: 200px;
+    padding: 5px 0px 5px 0px;
+}
+
+.Reflection {
+    height: 200px;
+    padding: 5px 0px 5px 0px;
 }
