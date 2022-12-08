@@ -64,13 +64,9 @@ footer {
 }
 
 .welcome {
-    height: 85px;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    height: 175px;
-    margin: 30x 0px 0px 0px;
-    border: 250px solid white;
-    padding: 30px 0px 30px 0px;
+    border: 225px solid white;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -99,7 +95,7 @@ footer {
 
 .grid2 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 70%;
     padding: 100px;
 }
 
@@ -118,8 +114,16 @@ footer {
     font-family: 'Bebas Neue', cursive;
         font-size: 20px;
         column-gap: 50px;
-        background-color: white;
     }
+
+    .htmlgriditem2 {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+            font-size: 20px;
+            column-gap: 50px;
+            background-color: white;
+        }
 
 .griditem {
 font-size: 30px;
@@ -141,7 +145,7 @@ font-family: 'Bebas Neue', cursive;
         border: 2px #022f77;
     }
 
-.CARPHEADER {
+.HEADER {
     font-size: 100px;
         font-family: 'Bebas Neue', cursive;
         text-align: center;
