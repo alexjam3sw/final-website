@@ -93,6 +93,7 @@ footer {
 
 .carpcontent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 15px 15px 15px 15px;
 }
@@ -115,7 +116,6 @@ footer {
         text-align: center;
         padding: 20px 20px 20px 20px white;
         color: white;
-        background-color: darkblue;
     }
     
     
@@ -127,12 +127,36 @@ footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    padding: 0px 55px 0px;
+    padding: 0px 55px 0px white;
 }
 
-.finaldesign {
-    text-align: left;
+.finalcarp {
+ 
     justify-content: right;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0px 15px 0px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.row {
+display: flex;
+font-size: 20px;
+align-items: left;
+text-align: right;
+}
+
+.column {
+  flex: 50%;
+  height: 300px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .HTML {
