@@ -100,8 +100,26 @@ footer {
 .grid2 {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 100px
+    padding: 100px;
 }
+
+.htmlgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 0px 10px;
+    row-gap: 20px;
+    column-gap: 20px;
+    color: #4287f5;
+}
+
+.htmlgriditem {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        column-gap: 50px;
+        background-color: white;
+    }
 
 .griditem {
 font-size: 30px;
@@ -110,6 +128,7 @@ font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     padding: 10px 0px 25px 10px;
     column-gap: 50px;
+    
 }
 
 .griditem2 {
@@ -144,29 +163,12 @@ h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-.HTML {
-    height: 85px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    height: 175px;
-    margin: 10px 0px 10px 0px;
-    padding: 30px 0px 30px 0px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
-    background-color: white;
-    color: #4287f5;
-}
-
 .UX {
     height: 85px;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     height: 175px;
     margin: 10px 0px 10px 0px;
-    border: 250px solid white;
     padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
