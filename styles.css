@@ -50,19 +50,6 @@ main {
     background-color: #4287f5;
 }
 
-footer {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    border: 10px solid white;
-    margin: 10px 0px 10px 0px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
-    background-color: #4287f5;
-}
-
 .welcome {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
@@ -152,6 +139,21 @@ font-family: 'Bebas Neue', cursive;
         padding: 30px 20px 20px 20px white;
         color: white;
     }
+
+    .UXgrid {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        padding: 100px;
+        background-color: pink
+    }
+
+    .UXgriditem {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+            font-size: 20px;
+        }
+    
     
     
 
@@ -167,20 +169,7 @@ h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-.UX {
-    height: 85px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    height: 175px;
-    margin: 10px 0px 10px 0px;
-    padding: 30px 0px 30px 0px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
-    background-color: #4287f5;
-}
+
 
 .Reflection {
     height: 85px;
@@ -205,6 +194,19 @@ h2 {
     padding: 20px 20px 20px 0px;
     color: white;
 
+}
+
+footer {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    border: 10px solid white;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #4287f5;
 }
 
 
