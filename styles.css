@@ -63,16 +63,13 @@ main {
     color: #4287f5;
 }
 
-.Typographic {
-    font-family: 'Bebas Neue', cursive;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    background-color: #4287f5;
-    flex-direction: column;
-    color: white;
-    font-size: 25px;
+.Typographicgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    align-items: center;
 }
+
 
 .carpgrid {
     display: grid;
@@ -82,7 +79,7 @@ main {
 
 .grid2 {
     display: grid;
-    grid-template-columns: 40% 70%;
+    grid-template-columns: 60% 40%;
     padding: 100px;
 }
 
@@ -152,7 +149,8 @@ font-family: 'Bebas Neue', cursive;
         grid-template-columns: 50% 40%;
         padding: 100px;
         background-color: pink;
-        border: 10px solid white;
+        border: 0px solid white;
+        align-items: center;
     }
 
     .UXgriditem {
@@ -169,7 +167,7 @@ font-family: 'Bebas Neue', cursive;
                 font-size: 20px;
                 background-color: white;
                 color: pink;
-                border: 50px 0px 50px solid pink;
+                padding: 50px;
             }
         
     
