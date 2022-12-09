@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+main {
+    background-color: white;
+}
+
 button {
     font-size: 35px;
     font-family: 'Bebas Neue', cursive;
@@ -46,10 +50,6 @@ header {
     font-size: 25px;
 }
 
-main {
-    background-color: #4287f5;
-}
-
 .welcome {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
@@ -63,24 +63,76 @@ main {
     color: #4287f5;
 }
 
+.header1 {
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px;
+
+}
+
 .Typographicgrid {
+    margin-top: 0;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 50px;
+    padding: 100px;
     align-items: center;
+    background-color: #D291BC;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.typogriditem {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: white;
+    color: #D291BC;
+    padding: 20px;
+}
+
+.HEADERcarp {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: #b3dee2;
 }
 
 
 .carpgrid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 0px 25px 25px;
+    margin-top: 0;
+    background-color: #b3dee2;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.carpgriditem {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 10px 25px 25px 25px;
+    background-color: white;
+    color: black;
 }
 
 .grid2 {
     display: grid;
-    grid-template-columns: 60% 40%;
-    padding: 100px;
+    grid-template-columns: 50% 50%;
+    padding: 150px;
+    background-color: #b3dee2;
+    text-align: center;
 }
 
 .htmlgrid {
@@ -95,82 +147,73 @@ main {
     font-size: 30px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-        font-size: 20px;
-        background-color: darkblue;
-        padding: 10px 10px 10px;
-    }
+    font-size: 20px;
+    background-color: darkblue;
+    padding: 10px 10px 10px;
+}
 
-    .htmlgriditem2 {
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Bebas Neue', cursive;
-            font-size: 20px;
-            background-color: white;
-        }
+.htmlgriditem2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: white;
+}
 
 .griditem {
-font-size: 30px;
-text-align: center;
-font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     padding: 10px 0px 25px 10px;
     column-gap: 50px;
-    
+
 }
 
 .griditem2 {
     font-size: 30px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-        font-size: 20px;
-        padding: 100px 50px 0px;
-        margin: 1px solid white;
-        border: 2px #022f77;
-    }
-
-.HEADER {
-    font-size: 100px;
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        padding: 30px 20px 20px 20px white;
-        color: white;
-    }
+    font-size: 20px;
+    padding: 100px;
+    background-color: white;
+    color: black;
+}
 
 .UXHEADER {
     font-size: 100px;
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        color: white;
-        background-color: pink;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    background-color: pink;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px;
 }
 
-    .UXgrid {
-        display: grid;
-        grid-template-columns: 50% 40%;
-        padding: 100px;
-        background-color: pink;
-        border: 0px solid white;
-        align-items: center;
-    }
+.UXgrid {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    padding: 100px;
+    background-color: pink;
+    align-items: center;
+}
 
-    .UXgriditem {
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Bebas Neue', cursive;
-            font-size: 20px;
-        }
-    
-        .UXgriditem2 {
-            font-size: 30px;
-            text-align: center;
-            font-family: 'Bebas Neue', cursive;
-                font-size: 20px;
-                background-color: white;
-                color: pink;
-                padding: 50px;
-            }
-        
-    
+.UXgriditem {
+    text-align: center;
+}
+
+.UXgriditem2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: white;
+    color: pink;
+    padding: 50px;
+}
+
+
 
 .h1 {
     font-family: 'Bebas Neue', cursive;
@@ -207,15 +250,6 @@ h3 {
     background-color: #4287f5;
 }
 
-.header {
-    font-size: 100px;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    padding: 20px 20px 20px 0px;
-    color: white;
-
-}
-
 footer {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
@@ -228,9 +262,3 @@ footer {
     display: flex;
     background-color: #4287f5;
 }
-
-
-
-
-
-
