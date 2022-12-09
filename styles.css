@@ -24,7 +24,7 @@ button {
 
 a:link {
     text-decoration: none;
-    color: #4287f5;
+    color: black;
 }
 
 a:visited {
@@ -140,7 +140,7 @@ header {
 .htmlgrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #ffd670;
+    background-color: #ffee96;
     column-gap: 50px;
     padding: 0px 50px 50px 0px;
 }
@@ -148,9 +148,9 @@ header {
 .htmlgrid2 {
     display: grid;
     grid-template-columns: 25% 75%;
-    background-color: #ffd670;
+    background-color: #ffee96;
     column-gap: 50px;
-    padding: 100px;
+    padding: 50px 25px 50px;
     margin-top: 0;
 }
 
@@ -161,7 +161,7 @@ header {
     font-size: 30px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 30px;
     padding: 150px 0px 0px;
 }
 
@@ -169,7 +169,7 @@ header {
     font-size: 30px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    background-color: #ffd670;
+    background-color: #ffee96;
 }
 
 .griditem {
@@ -194,7 +194,7 @@ header {
 }
 
 .griditemhtml {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     background-color: #FAF8F6;
@@ -252,19 +252,17 @@ h2 {
 
 
 .Reflection {
-    height: 85px;
+    height: 250px;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    height: 175px;
-    margin: 10px 0px 10px 0px;
-    border: 250px solid #FAF8F6;
-    padding: 30px 0px 30px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
-    background-color: #4287f5;
+    border: 200px solid #ff6961;
+    background-color: #FAF8F6;
+    color: black;
 }
 
 footer {
@@ -278,4 +276,5 @@ footer {
     display: flex;
     background-color: #FAF8F6;
     padding: 25px;
+    margin-top: 0;
 }
