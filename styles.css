@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    color: #4287f5;
 }
 
 main {
@@ -24,17 +24,17 @@ button {
 
 a:link {
     text-decoration: none;
-    color: #FAF8F6;
+    color: #4287f5;
 }
 
 a:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover {
     text-decoration: none;
-    color: #022f77;
+    color: #4287f5;
 }
 
 a:active {
@@ -43,7 +43,7 @@ a:active {
 }
 
 header {
-    background-color: #4287f5;
+    background-color: #FAF8F6;
     text-align: justify;
     display: flex;
     height: 100px;
@@ -53,14 +53,14 @@ header {
 .welcome {
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
-    border: 200px solid #FAF8F6;
+    border: 200px solid #4287f5;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
     background-color: #FAF8F6;
-    color: #4287f5;
+    color:black;
 }
 
 .header1 {
@@ -255,12 +255,12 @@ h3 {
 footer {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    border: 10px solid #FAF8F6;
     margin: 10px 0px 10px 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
-    background-color: #4287f5;
+    background-color: #FAF8F6;
+    padding: 25px;
 }
