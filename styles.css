@@ -139,10 +139,19 @@ header {
 
 .htmlgrid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     background-color: #ffd670;
     column-gap: 50px;
-    padding: 50px;
+    padding: 0px 50px 50px 0px;
+}
+
+.htmlgrid2 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #ffd670;
+    column-gap: 50px;
+    padding: 100px;
+    margin-top: 0;
 }
 
 
@@ -153,7 +162,7 @@ header {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    padding: 50px;
+    padding: 150px 0px 0px;
 }
 
 .htmlgriditem2 {
@@ -190,7 +199,7 @@ header {
     font-family: 'Bebas Neue', cursive;
     background-color: #FAF8F6;
     color: black;
-    padding: 25px;
+   padding: 25px;
 }
 .UXHEADER {
     font-size: 100px;
@@ -229,8 +238,10 @@ header {
 
 .h1 {
     font-family: 'Bebas Neue', cursive;
-    padding: 20px;
+    padding: 10px;
     font-size: 50px;
+    text-align: center;
+    align-content: center;
 }
 
 h2 {
