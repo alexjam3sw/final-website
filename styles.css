@@ -52,8 +52,8 @@ header {
 
 .welcome {
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    border: 230px solid white;
+    font-size: 30px;
+    border: 200px solid white;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -67,10 +67,11 @@ header {
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    background-color: black;
+    background-color: #D291BC;
     margin-top: 0;
     margin-bottom: 0;
     padding: 30px;
+    color: black;
 
 }
 
@@ -89,10 +90,10 @@ header {
     font-size: 30px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 25px;
     background-color: white;
-    color: #D291BC;
-    padding: 20px;
+    color: black;
+    padding: 50px;
 }
 
 .HEADERcarp {
@@ -204,7 +205,7 @@ header {
 }
 
 .UXgriditem2 {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
