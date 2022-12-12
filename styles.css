@@ -112,7 +112,7 @@ header {
 .carpgrid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 50px 50px 25px 20px;
+    padding: 100px 50px 25px 20px;
     margin-top: 0;
     background-color: #b3dee2;
     row-gap: 15px;
@@ -142,7 +142,7 @@ header {
     grid-template-columns: 50% 50%;
     background-color: #ffee96;
     column-gap: 50px;
-    padding: 0px 50px 50px 0px;
+    padding: 0px 50px 25px 0px;
 }
 
 .htmlgrid2 {
@@ -150,7 +150,7 @@ header {
     grid-template-columns: 25% 75%;
     background-color: #ffee96;
     column-gap: 50px;
-    padding: 50px 25px 50px;
+    padding: 50px 25px 100px;
     margin-top: 0;
 }
 
@@ -199,7 +199,7 @@ header {
     font-family: 'Bebas Neue', cursive;
     background-color: #FAF8F6;
     color: black;
-   padding: 25px;
+   padding: 5px;
 }
 .UXHEADER {
     font-size: 100px;
@@ -252,7 +252,6 @@ h2 {
 
 
 .Reflection {
-    height: 250px;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     text-align: center;
@@ -260,9 +259,10 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     display: flex;
-    border: 200px solid #ff6961;
+    border: 150px solid #ff6961;
     background-color: #FAF8F6;
     color: black;
+    padding: 10px;
 }
 
 footer {
